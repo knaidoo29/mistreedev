@@ -1,2 +1,2 @@
 # mistreedev
-mistree development -- testing and development new code
+mistree development -- testing and developing new code
