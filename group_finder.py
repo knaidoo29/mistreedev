@@ -119,6 +119,25 @@ def get_group_param_mean(groups, parameter):
     return group_param_mean
 
 
+def get_group_param_sum(groups, parameter):
+    """Gets the sum of an input value for each group.
+
+    Parameters
+    ----------
+    groups : list
+        A list of member points in each group.
+    parameter : array_like
+        Parameter value for each point which we want the mean of for each group.
+
+    Returns
+    -------
+    group_param_sum : array
+        The sum parameter for each group.
+    """
+    group_param_sum = np.array([np.sum(parameter[groups[i]]) for i in range(0, len(groups))])
+    return group_param_sum
+
+
 class GroupFinder:
 
     """Group finder class function."""
