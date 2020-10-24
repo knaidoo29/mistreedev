@@ -1,2 +1,6 @@
 *.pyc
-test/*
+*__pycache__
+*build
+*.egg*
+*dist
+*.ipynb_checkpoints*

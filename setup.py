@@ -30,7 +30,7 @@ setup(name = 'mistreedev',
       license='MIT',
       packages=setuptools.find_packages(),
       install_requires=['numpy', 'matplotlib', 'scipy', 'scikit-learn'],
-      ext_modules = [ext1],
+      ext_modules = [],
       python_requires = '>=2.7',
       classifiers=[
         'Development Status :: 5 - Production/Stable',
