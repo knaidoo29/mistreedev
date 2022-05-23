@@ -21,5 +21,8 @@ from .structurefinder import get_group_edges
 
 # trim function
 from .trim import find_edge4point
-#from .trim import remove_tree_tips
-#from .trim import trim_tree
+from .trim import remove_tree_tips
+from .trim import trim_tree
+
+from .fragment import id2groups
+from .fragment import Fragment
